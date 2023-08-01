@@ -27,6 +27,11 @@ The key players in this story will be the `upstream` (the original GitHub reposi
 3. Clone your forked repository onto your local machine using something like `git clone git@github.com:your_user_name_here/curriculum.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub).
 4. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub.  You will use this to push changes back up to GitHub.  You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote.  Do this by using `git remote add upstream git@github.com:TheOdinProject/curriculum.git` inside the project folder `curriculum`.
 
+#### Adding a cool new section here
+
+Adding text to this section.
+Practicing using Git in the real world as a part of the TOP curriculum.
+
 #### Ongoing workflow
 
 We've got one main branch -- `main`.  `main` is for production-ready code.  Any code deployed to `main` (on the original repo, not on your fork) will be tested in staging and shipped to production.  You'll be working in a feature branch and submitting your pull requests to the `main` branch.
